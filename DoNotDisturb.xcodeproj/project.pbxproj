@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,17 @@
 		B41AB29325E6CC0100DD8B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41AB29125E6CC0100DD8B0C /* LaunchScreen.storyboard */; };
 		B41AB29E25E6CC0100DD8B0C /* DoNotDisturbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB29D25E6CC0100DD8B0C /* DoNotDisturbTests.swift */; };
 		B41AB2A925E6CC0100DD8B0C /* DoNotDisturbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2A825E6CC0100DD8B0C /* DoNotDisturbUITests.swift */; };
+		B41AB2CF25E74AFE00DD8B0C /* IPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2CE25E74AFE00DD8B0C /* IPadViewController.swift */; };
+		B41AB2D725E74B1700DD8B0C /* IPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2D625E74B1700DD8B0C /* IPhoneView.swift */; };
+		B41AB2DF25E74B4200DD8B0C /* DoNotDisturbButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2DE25E74B4200DD8B0C /* DoNotDisturbButton.swift */; };
+		B41AB2E725E74B6B00DD8B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41AB2E625E74B6B00DD8B0C /* Main.storyboard */; };
+		B41AB2EC25E74BA600DD8B0C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2EB25E74BA600DD8B0C /* Manager.swift */; };
+		B41AB2F125E74BEF00DD8B0C /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2F025E74BEF00DD8B0C /* NotificationType.swift */; };
+		B41AB2F925E74C0F00DD8B0C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41AB2F825E74C0F00DD8B0C /* Date.swift */; };
+		B41AB30125E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B41AB30025E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 */; };
+		B41AB30625E750F600DD8B0C /* PleaseBeQuiet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B41AB30525E750F600DD8B0C /* PleaseBeQuiet.mp3 */; };
+		B41AB30B25E7511400DD8B0C /* DoNotDisturb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */; };
+		B41AB31925E75D6F00DD8B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +71,17 @@
 		B41AB2A425E6CC0100DD8B0C /* DoNotDisturbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoNotDisturbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41AB2A825E6CC0100DD8B0C /* DoNotDisturbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNotDisturbUITests.swift; sourceTree = "<group>"; };
 		B41AB2AA25E6CC0100DD8B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41AB2CE25E74AFE00DD8B0C /* IPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPadViewController.swift; sourceTree = "<group>"; };
+		B41AB2D625E74B1700DD8B0C /* IPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneView.swift; sourceTree = "<group>"; };
+		B41AB2DE25E74B4200DD8B0C /* DoNotDisturbButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNotDisturbButton.swift; sourceTree = "<group>"; };
+		B41AB2E625E74B6B00DD8B0C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B41AB2EB25E74BA600DD8B0C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		B41AB2F025E74BEF00DD8B0C /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		B41AB2F825E74C0F00DD8B0C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B41AB30025E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PleaseDoNotMakeAnyNoise.mp3; sourceTree = "<group>"; };
+		B41AB30525E750F600DD8B0C /* PleaseBeQuiet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PleaseBeQuiet.mp3; sourceTree = "<group>"; };
+		B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoNotDisturb.mp3; sourceTree = "<group>"; };
+		B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4D870A2FDB17DEB45CDAF7B /* Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; path = "Target Support Files/Pods-DoNotDisturb-DoNotDisturbUITests/Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +123,6 @@
 				4F56903153E70CAC5214B17C /* Pods-DoNotDisturbTests.debug.xcconfig */,
 				2F9AAC3E1DB42EF01C6D379F /* Pods-DoNotDisturbTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,10 +153,19 @@
 			children = (
 				B41AB28625E6CC0000DD8B0C /* AppDelegate.swift */,
 				B41AB28825E6CC0000DD8B0C /* SceneDelegate.swift */,
+				B41AB2EB25E74BA600DD8B0C /* Manager.swift */,
+				B41AB2CE25E74AFE00DD8B0C /* IPadViewController.swift */,
+				B41AB2D625E74B1700DD8B0C /* IPhoneView.swift */,
+				B41AB2F025E74BEF00DD8B0C /* NotificationType.swift */,
+				B41AB2DE25E74B4200DD8B0C /* DoNotDisturbButton.swift */,
+				B41AB2F825E74C0F00DD8B0C /* Date.swift */,
 				B41AB28A25E6CC0000DD8B0C /* ContentView.swift */,
 				B41AB28C25E6CC0100DD8B0C /* Assets.xcassets */,
+				B41AB2CD25E74AB900DD8B0C /* AudioFiles */,
+				B41AB2E625E74B6B00DD8B0C /* Main.storyboard */,
 				B41AB29125E6CC0100DD8B0C /* LaunchScreen.storyboard */,
 				B41AB29425E6CC0100DD8B0C /* Info.plist */,
+				B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */,
 				B41AB28E25E6CC0100DD8B0C /* Preview Content */,
 			);
 			path = DoNotDisturb;
@@ -165,6 +195,16 @@
 				B41AB2AA25E6CC0100DD8B0C /* Info.plist */,
 			);
 			path = DoNotDisturbUITests;
+			sourceTree = "<group>";
+		};
+		B41AB2CD25E74AB900DD8B0C /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B41AB30025E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 */,
+				B41AB30525E750F600DD8B0C /* PleaseBeQuiet.mp3 */,
+				B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */,
+			);
+			path = AudioFiles;
 			sourceTree = "<group>";
 		};
 		BD3382D50342928AB3D38DE9 /* Frameworks */ = {
@@ -285,9 +325,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41AB30125E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 in Resources */,
+				B41AB30B25E7511400DD8B0C /* DoNotDisturb.mp3 in Resources */,
+				B41AB31925E75D6F00DD8B0C /* GoogleService-Info.plist in Resources */,
 				B41AB29325E6CC0100DD8B0C /* LaunchScreen.storyboard in Resources */,
 				B41AB29025E6CC0100DD8B0C /* Preview Assets.xcassets in Resources */,
 				B41AB28D25E6CC0100DD8B0C /* Assets.xcassets in Resources */,
+				B41AB30625E750F600DD8B0C /* PleaseBeQuiet.mp3 in Resources */,
+				B41AB2E725E74B6B00DD8B0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +460,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41AB2CF25E74AFE00DD8B0C /* IPadViewController.swift in Sources */,
+				B41AB2D725E74B1700DD8B0C /* IPhoneView.swift in Sources */,
+				B41AB2DF25E74B4200DD8B0C /* DoNotDisturbButton.swift in Sources */,
 				B41AB28725E6CC0000DD8B0C /* AppDelegate.swift in Sources */,
 				B41AB28925E6CC0000DD8B0C /* SceneDelegate.swift in Sources */,
+				B41AB2F125E74BEF00DD8B0C /* NotificationType.swift in Sources */,
 				B41AB28B25E6CC0000DD8B0C /* ContentView.swift in Sources */,
+				B41AB2F925E74C0F00DD8B0C /* Date.swift in Sources */,
+				B41AB2EC25E74BA600DD8B0C /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
