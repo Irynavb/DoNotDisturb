@@ -18,12 +18,12 @@ struct IPhoneView: View {
                 Image("DoNotDisturbImage")
                 Text("Please Do Not Disturb.").fontWeight(.bold).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 Spacer()
-            }.frame(height:200).padding()
+            }.frame(width: 65, height:100).padding()
 
             List(manager.doNotDisturbRequests) { request in
                 HStack {
                     Image(request.notificationType?.imageName ?? "DoNotDisturbImage")
-                    Text(request.notificationType?.speech ?? "")
+                    Text(request.notificationType?.speecha ?? "")
                     Spacer()
                     Text(request.timestamp?.timeString() ?? "").font(.caption).foregroundColor(Color.gray)
                 }.frame(height:55)

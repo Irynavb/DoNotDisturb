@@ -29,6 +29,8 @@
 		B41AB30625E750F600DD8B0C /* PleaseBeQuiet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B41AB30525E750F600DD8B0C /* PleaseBeQuiet.mp3 */; };
 		B41AB30B25E7511400DD8B0C /* DoNotDisturb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */; };
 		B41AB31925E75D6F00DD8B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */; };
+		B41AB32225E7F38100DD8B0C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AB32125E7F38100DD8B0C /* Icon.png */; };
+		B41AB32F25E7FAA600DD8B0C /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		B41AB30525E750F600DD8B0C /* PleaseBeQuiet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PleaseBeQuiet.mp3; sourceTree = "<group>"; };
 		B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoNotDisturb.mp3; sourceTree = "<group>"; };
 		B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B41AB32125E7F38100DD8B0C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
 		D4D870A2FDB17DEB45CDAF7B /* Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; path = "Target Support Files/Pods-DoNotDisturb-DoNotDisturbUITests/Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				B41AB28525E6CC0000DD8B0C /* DoNotDisturb */,
+				B41AB32025E7F36500DD8B0C /* images */,
 				B41AB29C25E6CC0100DD8B0C /* DoNotDisturbTests */,
 				B41AB2A725E6CC0100DD8B0C /* DoNotDisturbUITests */,
 				B41AB28425E6CC0000DD8B0C /* Products */,
@@ -205,6 +210,15 @@
 				B41AB30A25E7511400DD8B0C /* DoNotDisturb.mp3 */,
 			);
 			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		B41AB32025E7F36500DD8B0C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */,
+				B41AB32125E7F38100DD8B0C /* Icon.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		BD3382D50342928AB3D38DE9 /* Frameworks */ = {
@@ -325,7 +339,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41AB32225E7F38100DD8B0C /* Icon.png in Resources */,
 				B41AB30125E750EE00DD8B0C /* PleaseDoNotMakeAnyNoise.mp3 in Resources */,
+				B41AB32F25E7FAA600DD8B0C /* SplashScreen.png in Resources */,
 				B41AB30B25E7511400DD8B0C /* DoNotDisturb.mp3 in Resources */,
 				B41AB31925E75D6F00DD8B0C /* GoogleService-Info.plist in Resources */,
 				B41AB29325E6CC0100DD8B0C /* LaunchScreen.storyboard in Resources */,
