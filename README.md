@@ -6,4 +6,4 @@ I can press the button on an iPad and my family will get a notification to the i
 
 Here I used the `Firebase` to set up a database and `SwiftUI` for the layout of the iPhone side, as well as the `AVFoundation` with its `AVAudioPlayer` to play the notifications.
 
-<img src="images/Icon.png" alt="Icon of the project">
+<img src="images/Icon.png" alt="Icon of the project" width = "560">
