@@ -2,7 +2,7 @@
 
 I am building this Swift application to be able to easier and faster notify my loved ones that I am working at the moment and can not be disturbed.
 
-<img src="images/Icon.png" alt="Icon of the project" width = "320">
+<img src="images/Icon.png" alt="Icon of the project" width = "160">
 
 I can press the button on an iPad and my family will get a notification to the iPhone.
 
