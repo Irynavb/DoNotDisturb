@@ -31,6 +31,7 @@
 		B41AB31925E75D6F00DD8B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */; };
 		B41AB32225E7F38100DD8B0C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AB32125E7F38100DD8B0C /* Icon.png */; };
 		B41AB32F25E7FAA600DD8B0C /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */; };
+		B41AB3C825ECA84F00DD8B0C /* ProgressLevelScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AB3C725ECA84F00DD8B0C /* ProgressLevelScreenShot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		B41AB31825E75D6F00DD8B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B41AB32125E7F38100DD8B0C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
+		B41AB3C725ECA84F00DD8B0C /* ProgressLevelScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgressLevelScreenShot.png; sourceTree = "<group>"; };
 		D4D870A2FDB17DEB45CDAF7B /* Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; path = "Target Support Files/Pods-DoNotDisturb-DoNotDisturbUITests/Pods-DoNotDisturb-DoNotDisturbUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				B41AB32E25E7FAA600DD8B0C /* SplashScreen.png */,
+				B41AB3C725ECA84F00DD8B0C /* ProgressLevelScreenShot.png */,
 				B41AB32125E7F38100DD8B0C /* Icon.png */,
 			);
 			path = images;
@@ -349,6 +352,7 @@
 				B41AB28D25E6CC0100DD8B0C /* Assets.xcassets in Resources */,
 				B41AB30625E750F600DD8B0C /* PleaseBeQuiet.mp3 in Resources */,
 				B41AB2E725E74B6B00DD8B0C /* Main.storyboard in Resources */,
+				B41AB3C825ECA84F00DD8B0C /* ProgressLevelScreenShot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
