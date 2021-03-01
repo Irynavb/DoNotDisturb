@@ -19,16 +19,13 @@ struct DoNotDisturbNotifications {
     static let typesOfNotifications = [
         NotificationType(id: "0",
                               speech: "Please Do Not Make Any Noise.",
-                              audioFile: "PleaseDoNotMakeAnyNoise",
-                              imageName: "DoNotDisturbImage"),
+                              audioFile: "PleaseDoNotMakeAnyNoise"),
         NotificationType(id: "1",
                               speech: "Please Be Quiet.",
-                              audioFile: "PleaseBeQuiet",
-                              imageName: "DoNotDisturbImage"),
+                              audioFile: "PleaseBeQuiet"),
         NotificationType(id: "2",
                               speech: "Do Not Disturb Do Not Disturb Do Not Disturb",
-                              audioFile: "DoNotDisturb",
-                              imageName: "DoNotDisturbImage")
+                              audioFile: "DoNotDisturb")
     ]
 
     func randomDoNotDisturbNotification() -> NotificationType {
