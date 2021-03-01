@@ -15,8 +15,11 @@ class IPadViewController: UIViewController, AVAudioPlayerDelegate {
     var avPlayer: AVAudioPlayer!
 
     lazy var doNotDisturbButton = DoNotDisturbButton().then {
-        $0.backgroundColor = UIColor.systemTeal
-        $0.setImage(UIImage(named:"DoNotDisturbImage"), for: .normal)
+        $0.backgroundColor = UIColor.systemRed
+        $0.setTitle("Do Not Disturb Please", for: .normal)
+        $0.titleLabel?.textAlignment = .center
+        $0.titleLabel?.textColor = .white
+        $0.titleLabel?.font = .boldSystemFont(ofSize: 72)
     }
 
     override func viewDidLoad() {
