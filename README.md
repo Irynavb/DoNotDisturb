@@ -6,4 +6,8 @@ I am building this Swift application to be able to easier and faster notify my l
 
 I can press the button on an iPad and my family will get a notification to the iPhone.
 
+It is still in progress, the first raw version though is below: 
+
+<img src="images/ProgressLevelScreenShot.png" alt="Icon of the project">
+
 Here I used the `Firebase` to set up a database and `SwiftUI` for the layout of the iPhone side, as well as the `AVFoundation` with its `AVAudioPlayer` to play the notifications.
