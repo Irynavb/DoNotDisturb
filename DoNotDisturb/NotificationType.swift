@@ -32,16 +32,4 @@ struct DoNotDisturbNotifications {
         let random = Int.random(in: 0..<DoNotDisturbNotifications.typesOfNotifications.count)
         return DoNotDisturbNotifications.typesOfNotifications[random]
     }
-
-    func doSomething() {
-        let notificationId = "0"
-
-        let filter = DoNotDisturbNotifications.typesOfNotifications.filter({
-            return $0.id == notificationId
-        })
-
-        if let notificationType = filter.first {
-            print(notificationType)
-        }
-    }
 }

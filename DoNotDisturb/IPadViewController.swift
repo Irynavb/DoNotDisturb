@@ -14,32 +14,23 @@ class IPadViewController: UIViewController, AVAudioPlayerDelegate {
 
     var avPlayer: AVAudioPlayer!
 
-    lazy var doNotDisturbButton = DoNotDisturbButton().then {
-        $0.backgroundColor = UIColor.systemRed
-        $0.setTitle("Do Not Disturb Please", for: .normal)
-        $0.titleLabel?.textAlignment = .center
-        $0.titleLabel?.textColor = .white
-        $0.titleLabel?.font = .boldSystemFont(ofSize: 72)
+    private lazy var doNotDisturbButton = DoNotDisturbButton(title: "Please Do Not Disturb", backgroundColor: .systemPink).then {
+        $0.addTarget(self, action: #selector(didTapModeOn), for: .touchUpInside)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        doNotDisturbButton.addTarget(self, action: #selector(didTapModeOn), for: .touchUpInside)
-
         view.backgroundColor = .systemBackground
 
         view.addSubview(doNotDisturbButton)
 
-        doNotDisturbButton.translatesAutoresizingMaskIntoConstraints = false
-        let constraints = [
+        NSLayoutConstraint.activate ([
             doNotDisturbButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
             doNotDisturbButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
             doNotDisturbButton.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.8),
             doNotDisturbButton.widthAnchor.constraint(equalTo: doNotDisturbButton.heightAnchor)
-        ]
-
-        NSLayoutConstraint.activate(constraints)
+        ])
     }
 
     @objc private func didTapModeOn() {
